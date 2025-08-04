@@ -41,7 +41,8 @@ const Hero = () => {
       <div
         className="absolute top-0 left-0 w-full h-full -z-10 pointer-events-none"
         style={{
-          background: "radial-gradient(circle at center, transparent 0%, black 100%)",
+          background:
+            "radial-gradient(circle at center, transparent 0%, black 100%)",
         }}
       />
 
@@ -60,8 +61,19 @@ const Hero = () => {
         </h1>
         <p className="text-gray-300 font-sans text-xl">Taste our Magic</p>
       </div>
-      <div>
-        <button className="text-gray-300 font-sans text-sm">Kollam</button>
+      <div className="flex gap-5">
+        <button className="text-gray-300 font-sans text-sm hover:bg-[#e3e3e34a] px-2 py-1 rounded-full transition duration-300 ease-in-out">
+          Kollam
+        </button>
+        <button className="text-gray-300 font-sans text-sm hover:bg-[#e3e3e34a] px-2 py-1 rounded-full transition duration-300 ease-in-out">
+          +91 23452 4567
+        </button>
+        <button className="text-gray-300 font-sans text-sm hover:bg-[#e3e3e34a] px-2 py-1 rounded-full transition duration-300 ease-in-out">
+          arun@gmail.com
+        </button>
+        <button className="text-gray-300 font-sans text-sm hover:bg-[#e3e3e34a] px-2 py-1 rounded-full transition duration-300 ease-in-out">
+          www.biriyani.com
+        </button>
       </div>
     </div>
   );
