@@ -59,7 +59,7 @@ const Hero = () => {
         >
           Coming Soon
         </h1>
-        <p className="text-gray-300 font-sans text-xl">Taste our Magic</p>
+        <p className="text-gray-300 font-Gruppo text-2xl font-bold">Taste our Magic</p>
       </div>
       <div className="flex gap-5">
         <button className="text-gray-300 font-sans text-sm hover:bg-[#e3e3e34a] px-2 py-1 rounded-full transition duration-300 ease-in-out">
@@ -71,9 +71,11 @@ const Hero = () => {
         <button className="text-gray-300 font-sans text-sm hover:bg-[#e3e3e34a] px-2 py-1 rounded-full transition duration-300 ease-in-out">
           arun@gmail.com
         </button>
-        <button className="text-gray-300 font-sans text-sm hover:bg-[#e3e3e34a] px-2 py-1 rounded-full transition duration-300 ease-in-out">
-          www.biriyani.com
-        </button>
+        <a href="http://" target="_blank" rel="noopener noreferrer">
+          <button className="text-gray-300 font-sans text-sm hover:bg-[#e3e3e34a] px-2 py-1 rounded-full transition duration-300 ease-in-out">
+            www.biriyani.com
+          </button>
+        </a>
       </div>
     </div>
   );
