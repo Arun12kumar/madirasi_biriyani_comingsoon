@@ -59,20 +59,25 @@ const Hero = () => {
         >
           Coming Soon
         </h1>
-        <p className="text-gray-300 font-segoe font-semibold  text-xl tracking-[7px]" style={{fontVariant:"small-caps"}}>Taste our Magic</p>
+        <p
+          className="text-[#ffa2d9] font-segoe font-semibold  text-xl tracking-[7px]"
+          style={{ fontVariant: "small-caps" }}
+        >
+          Madirasi magic, layered with spice and heritage.
+        </p>
       </div>
       <div className="flex gap-5">
-        <button className="text-gray-300 font-sans text-sm hover:bg-[#e3e3e34a] px-2 py-1 rounded-full transition duration-300 ease-in-out">
+        <button className="text-white font-sans text-sm hover:bg-[#e3e3e34a] px-2 py-1 rounded-full transition duration-300 ease-in-out">
           Kollam
         </button>
-        <button className="text-gray-300 font-sans text-sm hover:bg-[#e3e3e34a] px-2 py-1 rounded-full transition duration-300 ease-in-out">
+        <button className="text-white font-sans text-sm hover:bg-[#e3e3e34a] px-2 py-1 rounded-full transition duration-300 ease-in-out">
           +91 23452 4567
         </button>
-        <button className="text-gray-300 font-sans text-sm hover:bg-[#e3e3e34a] px-2 py-1 rounded-full transition duration-300 ease-in-out">
+        <button className="text-white font-sans text-sm hover:bg-[#e3e3e34a] px-2 py-1 rounded-full transition duration-300 ease-in-out">
           arun@gmail.com
         </button>
         <a href="http://" target="_blank" rel="noopener noreferrer">
-          <button className="text-gray-300 font-sans text-sm hover:bg-[#e3e3e34a] px-2 py-1 rounded-full transition duration-300 ease-in-out">
+          <button className="text-white font-sans text-sm hover:bg-[#e3e3e34a] px-2 py-1 rounded-full transition duration-300 ease-in-out">
             www.biriyani.com
           </button>
         </a>
