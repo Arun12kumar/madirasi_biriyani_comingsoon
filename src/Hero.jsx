@@ -55,11 +55,11 @@ const Hero = () => {
         />
         <h1
           ref={textRef}
-          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold bg-gradient-to-r from-[#ffcc70] via-[#ffb347] to-[#ff944d] bg-clip-text text-transparent px-4 py-3"
+          className="text-3xl uppercase sm:text-4xl md:text-5xl lg:text-8xl font-semibold bg-gradient-to-r from-[#ffcc70] via-[#ffb347] to-[#ff944d] bg-clip-text text-transparent px-4 py-3"
         >
           Coming Soon
         </h1>
-        <p className="text-gray-300 font-Gruppo text-2xl font-bold">Taste our Magic</p>
+        <p className="text-gray-300 font-segoe font-semibold  text-xl tracking-[7px]" style={{fontVariant:"small-caps"}}>Taste our Magic</p>
       </div>
       <div className="flex gap-5">
         <button className="text-gray-300 font-sans text-sm hover:bg-[#e3e3e34a] px-2 py-1 rounded-full transition duration-300 ease-in-out">
