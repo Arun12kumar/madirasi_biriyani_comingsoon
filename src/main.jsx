@@ -4,11 +4,13 @@ import './index.css'
 import App from './App.jsx'
 import Hero from './Hero.jsx'
 import ComingPage from './ComingPage.jsx'
+import NewComingpage from './NewComingpage.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
     {/* <Hero/> */}
-    <ComingPage/>
+    {/* <ComingPage/> */}
+    <NewComingpage/>
   </StrictMode>,
 )
