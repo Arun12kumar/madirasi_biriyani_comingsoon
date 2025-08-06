@@ -142,7 +142,7 @@ const NewComingpage = () => {
                     </h1>
                     <p
                         id="text2"
-                        className="font-roboto text-base sm:text-lg md:text-lg font-medium max-w-[500px]"
+                        className="font-roboto text-base text-[#5B2C47] sm:text-lg md:text-lg font-semibold max-w-[500px]"
                     >
                         Experience the rich heritage of biryani, crafted with timeless
                         passion
